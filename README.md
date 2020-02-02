@@ -7,10 +7,14 @@ Steps:
 1) Import and load the Data. intents.csv (You can edit your own data and train it)
 2) Preprocess the Data -
     Steps: lemmatization and stemming
+    
     Lemmatization :
+      
       Process of grouping together the diffrent inflected forms of the word so they can be analysed as a single item
       Example: rocks - rock, corpora - corpus
+    
     Stemming:
+      
       A processing interface for removing morphological affixes from the words. 
     
     Python library NLTK includes many methods for pre-processing as per below:
