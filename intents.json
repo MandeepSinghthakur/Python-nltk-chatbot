@@ -1,0 +1,46 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Have a good one"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help your mood to be cheerful","You will feel happy after chatting with me","You are awesome","Welcome to Dr. who makes you happy"],
+         "context": [""]
+       },
+       {
+          "tag": "wishes",
+          "patterns": ["Happy birthday!", "Many Many happy returns of the day", "Happy marriage anniversary", "Congrats!", "congratulations","Best of luck","Good luck"],
+          "responses": ["Thank you","Thanks","Thanks, I have a house party lets roll"],
+          "context": [""]
+       },
+       {
+          "tag": "mood",
+          "patterns": ["I am feeling sad","I am lonely","I am broken"],
+          "responses": ["Lets make you happy","I can tell you a joke","Here is picture of tiny elephant!! wasn't that funny"],
+          "context": [""]
+       },
+       {
+          "tag": "newhire",
+          "patterns": ["I don't have access","Where is room 207","I don't know my username and password","no access","access denied","build is failing"],
+          "responses": ["Please contact your team lead","Contact your manager", "Lets bring this tommorrow standup"],
+          "context": [""]
+       }
+   ]
+}
