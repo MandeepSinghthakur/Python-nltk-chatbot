@@ -2,7 +2,7 @@
 Retrieval Based Chatbot
 
 Steps: 
-1) Import and load the Data(You can edit your own data and train it)
+1) Import and load the Data. intents.csv (You can edit your own data and train it)
 2) Preprocess the Data -
     Steps: lemmatization and stemming
     Lemmatization :
