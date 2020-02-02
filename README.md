@@ -18,12 +18,19 @@ Steps:
       A processing interface for removing morphological affixes from the words. 
     
     Python library NLTK includes many methods for pre-processing as per below:
-      nltk.
+     
+     nltk.
+     
         fem2mase - feminine form to masculine form
+        
         norm - normalize the word from plural form to the singular form
+        
         pref - remove prefixes from the word's begining
+        
         stem - word's stem based on ArLstem
+        
         verb - stem the verb prefix and suffixes or both
+        
  3) Create training and test data - convert the text to numerical values so that neural network/ computer can understand it
  4) Build the Sequential Model
  5) Predict the response
