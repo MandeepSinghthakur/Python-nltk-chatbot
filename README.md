@@ -1,6 +1,8 @@
 # Python-nltk-chatbot
 Retrieval Based Chatbot
 
+Pre-requiste: Python,numpy, Keras/Tensorflow, nltk
+
 Steps: 
 1) Import and load the Data. intents.csv (You can edit your own data and train it)
 2) Preprocess the Data -
@@ -22,4 +24,5 @@ Steps:
  4) Build the Sequential Model
  5) Predict the response
     
-      
+
+Attached PNG for sample run. You can run the prograam after cloning with 'python chatgui.py'
