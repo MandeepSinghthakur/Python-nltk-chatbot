@@ -18,7 +18,7 @@ Steps:
         pref - remove prefixes from the word's begining
         stem - word's stem based on ArLstem
         verb - stem the verb prefix and suffixes or both
- 3) Create training and test data
+ 3) Create training and test data - convert the text to numerical values so that neural network/ computer can understand it
  4) Build the Sequential Model
  5) Predict the response
     
